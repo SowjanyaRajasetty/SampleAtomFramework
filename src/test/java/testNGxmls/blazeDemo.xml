@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="NavigationToBlazeDemoPage" parallel = "classes" thread-count = "8">
+		<classes>
+			<class name="testRunners.NavigationRunner"/>
+			<class name="testRunners.DestOfTheWeekRunner"/>
+			<class name="testRunners.FindFlightsRunner"/>
+			<class name="testRunners.FlightsBetweenRunner"/>
+			<class name="testRunners.SelectFlightRunner"/>
+			<class name="testRunners.SuccessfulBookingRunner"/>
+			<class name="testRunners.TravelTheWorldRunner"/>
+			<class name="testRunners.HomeRunner"/>			
+		</classes>
+	</test>
+</suite>
